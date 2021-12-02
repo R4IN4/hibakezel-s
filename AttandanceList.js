@@ -1,8 +1,8 @@
 export class AttendanceList {
     
-    lista = new Array();
-    constructor(lista){
-        this.lista=lista;
+    
+    constructor(){
+        this.lista = new Array();
     }
 
     add(name){

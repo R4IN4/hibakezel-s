@@ -31,13 +31,7 @@ describe ('Test for AttandanceList', () => {
         lista = new AttendanceList();
 });
     test('lista value', ()=>{
-        expect(lista.add('value123')).not.toBeNull(null);
+        expect(lista.add('value123')).not.toBeNull();
 
     });
-test('istvale',()=>{
-    expect(list).not.toBeNull()
-})
-
-
-
 });
